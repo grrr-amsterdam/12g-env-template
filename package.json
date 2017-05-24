@@ -1,0 +1,26 @@
+{
+  "name": "12g-env-template",
+  "version": "1.0.0",
+  "description": "Create a .env template / example file based on a local .env",
+  "main": "template.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grrr-amsterdam/12g-env-template.git"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "12factor",
+    "template",
+    "configuration"
+  ],
+  "author": "David Spreekmeester <david@grrr.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grrr-amsterdam/12g-env-template/issues"
+  },
+  "homepage": "https://github.com/grrr-amsterdam/12g-env-template#readme"
+}
