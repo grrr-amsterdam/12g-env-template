@@ -22,7 +22,7 @@ template.create()
 
 Or with options:
 ```
-template.create('.env.production', '.env.example'
+template.create('.env.production', '.env.example')
 ```
 
 ## Methods
