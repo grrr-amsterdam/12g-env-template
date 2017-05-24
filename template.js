@@ -28,15 +28,16 @@ var template = module.exports = {
                 fs.appendFileSync(
                     template.dstPath, "\n"
                 )
-            } else {
-                var emptied = split[0]
-                split[1] ? emptied += "=" : true
-                emptied += "\n"
+                return
+            } 
 
-                fs.appendFileSync(
-                    template.dstPath, emptied
-                )
-            }
+            var emptied = split[0]
+            split[1] ? emptied += "=" : true
+            emptied += "\n"
+
+            fs.appendFileSync(
+                template.dstPath, emptied
+            )
         };
 
         var write = function(data) {
