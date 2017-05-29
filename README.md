@@ -3,6 +3,8 @@
 This package creates a template file based on your local `.env` file.
 It will empty out all values, but it will leave comments and newlines in.
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/grrr-amsterdam/12g-env-template.svg)](https://greenkeeper.io/)
+
 
 ## Usage
 Install the dependency:
