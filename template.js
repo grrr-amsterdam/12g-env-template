@@ -26,7 +26,7 @@ var template = module.exports = {
             if (srcPath) template.srcPath = srcPath
             if (dstPath) template.dstPath = dstPath
 
-            if (!fs.existsSync(srcPath)) {
+            if (!fs.existsSync(template.srcPath)) {
                 var msg = 'Can\'t find the source file at '
                     + srcPath
                 return reject(msg)
