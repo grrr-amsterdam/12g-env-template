@@ -1,6 +1,6 @@
 {
   "name": "12g-env-template",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Create a .env template / example file based on a local .env",
   "main": "template.js",
   "scripts": {
