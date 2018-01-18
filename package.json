@@ -25,6 +25,6 @@
   "homepage": "https://github.com/grrr-amsterdam/12g-env-template#readme",
   "dependencies": {
     "fs-extra": "^3.0.1",
-    "mocha": "^3.4.2"
+    "mocha": "^5.0.0"
   }
 }
